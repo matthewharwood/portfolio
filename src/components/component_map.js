@@ -5,13 +5,15 @@ import { autoHydrate } from "../utils/auto_hydrate";
 import { NavigationItem } from "./navigation/item";
 import {Polymorph} from './polymorph';
 import {DateCounter} from './post-footer/date-counter';
+import { HeaderSpan } from './header-span'
 
 export const COMPONENT_MAP = {
-  RunningHeader,
-  NavigationItem,
-  NavigationBar,
-  Polymorph,
   DateCounter,
+  HeaderSpan,
+  NavigationBar,
+  NavigationItem,
+  Polymorph,
+  RunningHeader,
 }
 
 const AH = {};
